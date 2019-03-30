@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form page</title>
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="parent">
+      <!--carrer objective -->
+      <div class="career">
+        <h1>career objective</h1>
+        <label for="career">
+          <input type="text" name="career"id="career" placeholder="carrer objective">
+        </label>
+      </div>
+      <!-- personal information -->
+      <div class="personal details">
+        <h1>personal details</h1>
+        <!-- label for name -->
+          <input type="text" name="name" id="name"placeholder="name">
+          <br>
+          <input type="text" name="address" id="address"placeholder="address">
+          <br>
+          <input type="text" name="email" id="email"placeholder="email">
+          <br>
+          <input type="text" name="mobilenumber" id="mobilenumber"placeholder="mobilenumber">
+          <br>
+          <input type="text" name="gender" id="gender"placeholder="gender">
+          <br>
+
+      </div>
+      <!-- educational details -->
+      <div class="details">
+        <h1>Graduation details</h1>
+        <label for="ginstitute">
+          <select id="ginstitute" placeholder="select institution">
+            <option>None</option>
+            <option>MITS</option>
+            <option>GITAM</option>
+            <option>SRM</option>
+            <option>SVTM</option>
+            <option>JNTUA</option>
+          </select>
+        </label>
+        <!-- branch -->
+        <select id="gbranch">
+          <option>branch name</option>
+          <option>CSE</option>
+          <option>IT</option>
+          <option>ECE</option>
+          <option>CIVIL</option>
+          <option>MECHANICAL</option>
+        </select>
+        <!-- year of passing -->
+        <select id="gyear">
+          <option>select yop</option>
+          <option>2021</option>
+          <option>2021</option>
+          <option>2022</option>
+          <option>2023</option>
+          <option>2021</option>
+          <!-- percantage -->
+          <input type="text" name="percentage" id="gpercentage"placeholder="Enter percentage">
+        </select>
+        </div>
+        <!-- intermediate -->
+        <div class="details">
+          <h1>inter details</h1>
+          <label for="institute">
+            <select id="ininstitute" placeholder="select institution">
+              <option>None</option>
+              <option>sri chaitanya</option>
+              <option>narayana</option>
+              <option>KKR</option>
+            </select>
+          </label>
+          <!-- branch -->
+          <select id="inbranch">
+            <option>branch name</option>
+            <option>MPC</option>
+            <option>BIPC</option>
+            <!-- <option>CEC</option> -->
+            <!-- <option></option> -->
+            <!-- <option>MECHANICAL</option> -->
+
+          </select>
+          <!-- year of passing -->
+          <select id="inyop">
+            <option>select yop</option>
+            <option>2017</option>
+            <option>2016</option>
+            <!-- <option>2</option> -->
+            <!-- <option>2023</option> -->
+            <!-- <option>2021</option> -->
+            <!-- percantage -->
+            <input type="text" name="percentage" id="inpercentage"placeholder="Enter percentage">
+          </select>
+    </div>
+    <div class="details">
+      <h1>SSC details</h1>
+      <label for="institute">
+        <select id="sinstitute" placeholder="select institution">
+          <option>None</option>
+          <option>sri chaitanya</option>
+          <option>narayana</option>
+          <option>srivani</option>
+          <!-- <option>SVTM</option> -->
+          <!-- <option>JNTUA</option> -->
+        </select>
+      </label>
+      <!-- branch -->
+      <select id="sbranch">
+        <option>branch name</option>
+        <option>SSC</option>
+        <option>CBSE</option>
+        <!-- <option>ECE</option> -->
+        <!-- <option>CIVIL</option> -->
+        <!-- <option>MECHANICAL</option> -->
+      </select>
+      <!-- year of passing -->
+      <select id="syop">
+        <option>select yop</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2016</option>
+        <option>2017</option>
+        <!-- percantage -->
+        <input type="text" name="percentage" id="spercentage"placeholder="Enter percentage">
+
+      </select>
+      </div>
+      <div class="skills">
+        <h1>skills</h1>
+        <label for="skills">
+          <input type="text" name="skills"id="skills" placeholder="skills">
+        </label>
+      </div>
+      <button type="button" name="button"id="button" onclick="submitdata()">submit</button>
+
+  </body>
+  <script type="text/javascript"src="js/main.js">
+
+  </script>
+</html>

@@ -1,0 +1,39 @@
+body{
+  background-color: #273746;
+}
+header{
+  background-color: #E74C3C;
+  font-style:oblique;
+  text-align: center;
+  font-weight:25px;
+}
+img{
+  float:right;
+  width:35%;
+  height:30%;
+}
+a{
+  float:right;
+}
+.child{
+  width:20%;
+  height: 200px;
+  padding:1%;
+  margin:1%;
+  border:1px solid #fff;
+  display:block;
+  text-align:center;
+  background-color: violet;
+  justify-content:space-around;
+
+}
+.child img{
+  width:50px;
+  height:50px;
+}
+.link{
+  text-decoration: none;
+  background-color:#3498DB;
+  color:black;
+
+}

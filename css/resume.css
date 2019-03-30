@@ -1,0 +1,95 @@
+ img{
+  width:35%;
+}
+body{
+  background-color: #2E4053;
+  /* text-align:left; */
+}
+.parent{
+  background:#2ECC71;
+  display:flex;
+  justify-content: center;
+  border:2px solid #5DADE2;
+  /* text-align:center; */
+  margin: 1%;
+  padding: 1%;
+}
+.left{
+  background:#BB8FCE;
+  font-size: 20px;
+  /* background:#27AE60; */
+  width:30%;
+  border:2px solid #4A235A;
+  margin:1%;
+  padding:1%;
+  text-align:center;
+  border-radius: 1%;
+}
+.right{
+    font-size: 20px;
+  background:#2874A6;
+  padding:1%;
+  width:70%;
+  border:2px solid #4A235A;
+  margin:1%;
+  /* text-align:left; */
+  border-radius: 1%;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+img{
+  width:30%;
+}
+table{
+  border:1px solid black;
+  font-size:20px;
+}
+table tr,th,td{
+  border:1px solid black;
+  /* border-collapse:collapse; */
+  /* font-size: 20px; */
+}
+/* table tr:nth-child(even){
+  background-color:; */
+/* } */
+/* ul{
+  font-size: 20px;
+  font-style: oblique; */
+/* } */
+@media screen and (max-width:767px) {
+  .parent {
+    flex-wrap: wrap;
+    background: orange;
+  }
+  .left {
+    width: 100%;
+  }
+  .right{
+    width:100%;
+  }
+  table{
+    overflow: scroll;
+    font-size: 10px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+  .parent{
+    flex-wrap:wrap;
+  }
+  .left{
+    /* background-color::#CA6F1E; */
+    width:35%;
+  }
+  .right{
+    /* background-color:#CA6F1E; */
+    width:35%;
+  }
+  table{
+    font-size: 10px;
+
+  }
+}
